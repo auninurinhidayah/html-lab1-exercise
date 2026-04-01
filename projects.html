@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Projects page with images and figures">
+    <title>Projects</title>
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+</header>
+
+<main>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="about.html">👩‍💻 About Me</a></li>
+                <li><a href="academic.html">🎓 My Academic Record</a></li>
+                <li><a href="projects.html" class="active">💼 My Projects</a></li>
+                <li><a href="skills.html">🛠 My Skills</a></li>
+                <li><a href="contact.html">✉️ Contact me</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Profile Photo -->
+    <section id="my picture">
+    <h2>My Picture</h2>
+
+    <figure>
+        <img src="images/auni2.jpg" height="auto" width="250" title="This is me!">
+        <figcaption>Auni Nurin Hidayah - Future Software Engineer</figcaption>
+    </figure>
+
+    <!-- Floating image beside paragraph -->
+    <figure align="right">
+        <!-- align is deprecated; modern approach: use CSS float -->
+        <a href="https://example.com">
+            <img src=https://placehold.co/600x400 alt="Screenshot of my interactive portfolio project" width="auto" height="300">
+        </a>
+        <figcaption>Homepage of my first HTML project</figcaption>
+    </figure>
+
+    <p>
+        This project is my very first attempt at building a web page using HTML and CSS. 
+        Floating the screenshot beside this paragraph helps visually show the project layout.
+    </p>
+
+    <!-- Clickable project screenshot -->
+    <figure>
+        <a href="https://example.com">
+            <img src="https://placehold.co/300x200" alt="Screenshot of my interactive portfolio project" width="auto" height="300">
+        </a>
+        <figcaption>Clicking the image takes you to the live portfolio project</figcaption>
+    </figure>
+
+</main>
+
+<footer>
+    <small>&copy; 2026 Auni Nurin Hidayah. All rights reserved.</small>
+</footer>
+
+</body>
+</html>
